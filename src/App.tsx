@@ -94,7 +94,7 @@ function App() {
     <Container p={4} maxW="conatiner.xl">
       <Text fontSize="x-large">วางแผนผ่อนเงินกู้</Text>
       <Divider my={4} />
-      <HStack alignItems="center" mb={4}>
+      <HStack alignItems="center" mb={4} flexWrap="wrap">
         <div>
           <label htmlFor="">MRR %</label>
           <Input type="number" onChange={(e) => setMrr(+e.target.value)} />
