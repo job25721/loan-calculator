@@ -29,6 +29,7 @@ ChartJS.register(
   Filler,
   Legend
 );
+
 function App() {
   const [principal, setPrincipal] = useState<number>(0);
   const [installment, setInstallment] = useState<number>(0);
